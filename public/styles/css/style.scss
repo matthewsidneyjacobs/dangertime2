@@ -1,8 +1,52 @@
-
+$dark-green:#507642;
+$light-green:#86942A;
+$tan:#A37B45;
+$off-grey:#CCCFBC;
+$almost-white:#F3F4EC;
 
 
 $background-color: rgb(39, 177, 54);
 
+.btn-custom {
+  background: $dark-green
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: $light-green;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
 body {
-  background-color: $background-color;
+  // background-color: $background-color;
+  height: 100%;
+}
+
+.parallax {
+  background-image: 'public/images/maxresdefault.png';
+  height: 100%auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_nav {
+  background-color: $almost-white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header_text {
+  background-color: $off-grey;
+  text-align: center;
+  color: $dark-green;
 }

@@ -12,7 +12,7 @@ angular.module('app')
   this.getCards = function() {
     return $http({
       method:'GET',
-      url: 'https://deckofcardsapi.com/api/deck/new/draw/?count=52'
+      url: 'https://deckofcardsapi.com/api/deck/new/draw/?count=2'
     })
   }
 

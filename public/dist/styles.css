@@ -1,4 +1,37 @@
+.btn-custom {
+  background: #507642; }
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: 0 none; }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  background: #86942A; }
+
+.btn-primary:active, .btn-primary.active {
+  background: #007299;
+  box-shadow: none; }
+
 body {
-  background-color: #27b136; }
+  height: 100%; }
+
+.parallax {
+  background-image: 'public/images/maxresdefault.png';
+  height: 100%auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.main_nav {
+  background-color: #F3F4EC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.header_text {
+  background-color: #CCCFBC;
+  text-align: center;
+  color: #507642; }
 
 
