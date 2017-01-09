@@ -16,13 +16,6 @@ app.use(express.static('public'));
 app.use(cors());
 app.use(bodyParser.json());
 app.use(cookieParser());
-// app.use(session({
-//   secret: config.sessionSecret,
-//   saveUninitialized: false,
-//   resave: true
-// }));
-// app.use(passport.initialize());
-// app.use(passport.session());
 
 
 const massiveInstance = massive.connectSync({
@@ -32,10 +25,7 @@ const massiveInstance = massive.connectSync({
 app.set('db', massiveInstance);
 const db = app.get('db');
 const mainCtrl = require('./mainCtrl');
-// const articleCtrl = require('./controllers/articleCtrl'),
-//       articleProcessor = require('./controllers/articleProcessor'),
-//       redditCtrl = require('./controllers/redditCtrl'),
-//       commentCtrl = require('./controllers/commentCtrl');
+
 
 
 // console.log('here');

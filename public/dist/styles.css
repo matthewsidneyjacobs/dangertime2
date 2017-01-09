@@ -14,6 +14,11 @@
   background: #007299;
   box-shadow: none; }
 
+.pay form {
+  width: 100%;
+  position: absolute;
+  right: 0; }
+
 body, html {
   height: 100%;
   font-family: 'Hind Vadodara', sans-serif; }
@@ -37,7 +42,7 @@ body, html {
   background-color: #A37B45; }
 
 .parallax {
-  background-image: 'public/images/maxresdefault.png';
+  background-image: './images/maxresdefault.png';
   height: 100%auto;
   background-attachment: fixed;
   background-position: center;
