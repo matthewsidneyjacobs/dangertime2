@@ -1,4 +1,12 @@
 <h1>This is the products page</h1>
 
+<div class="product-grid" ng-repeat="product in products">
 
-<button ui-sref="home">Go to products</button>
+</div>
+
+
+<div ng-repeat="card in cards">
+  <img ng-src='{{card.image}}'>
+</div>
+
+<button ui-sref="home">Go to home</button>

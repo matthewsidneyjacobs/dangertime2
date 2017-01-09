@@ -2,11 +2,13 @@ angular.module('app')
 .controller('mainCtrl', function($scope, mainService) {
   $scope.test = "this is working"
 
-  $scope.getProducts = function() {
-    mainService.showProducts().then(function(response) {
-      if(response.data) {
-        $scope.products = response.data;
-      }
-    })
-  }
+  // mainService.getProducts().then(function(response) {
+  //   $scope.products = response.data
+  // });
+
+  mainService.getCards().then(function(response){
+    console.log(response);
+    $scope.cards = response.data.cards
+  });
+
 })

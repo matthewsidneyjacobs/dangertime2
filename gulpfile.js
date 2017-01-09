@@ -48,10 +48,10 @@ gulp.task('build-css', function() {
 gulp.task('build-js', function() {
    return gulp.src([
         'public/app.js',
-        'public/routes.js',
+        // 'public/routes.js',
         'public/*.js',
-        'public/components/**/*.js',
-        'public/assets/js/*.js',
+        // 'public/components/**/*.js',
+        // 'public/assets/js/*.js',
       ])
       .pipe(sourcemaps.init())
       .pipe(print())

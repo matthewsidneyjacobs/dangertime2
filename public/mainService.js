@@ -1,8 +1,19 @@
 angular.module('app')
 .service('mainService', function($http) {
-  this.showProducts = function() {
-    return $http.post('api/products').then(function(response) {
-      return response.data
+
+  // this.getProducts = function() {
+  //   return $http({
+  //     method: 'GET',
+  //     url: '/api/getProducts'
+  //   })
+  // }
+
+
+  this.getCards = function() {
+    return $http({
+      method:'GET',
+      url: 'https://deckofcardsapi.com/api/deck/new/draw/?count=52'
     })
   }
+
 })
