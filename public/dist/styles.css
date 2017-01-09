@@ -11,8 +11,12 @@
   background: #007299;
   box-shadow: none; }
 
-body {
+body, html {
   height: 100%; }
+
+.test {
+  height: 50%;
+  background-color: #A37B45; }
 
 .parallax {
   background-image: 'public/images/maxresdefault.png';

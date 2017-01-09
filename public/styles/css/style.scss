@@ -23,11 +23,16 @@ $background-color: rgb(39, 177, 54);
     box-shadow: none;
 }
 
-body {
+body, html {
   // background-color: $background-color;
   height: 100%;
 }
 
+
+.test {
+  height: 50%;
+  background-color: $tan;
+}
 .parallax {
   background-image: 'public/images/maxresdefault.png';
   height: 100%auto;

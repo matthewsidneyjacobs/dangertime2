@@ -1,8 +1,8 @@
 // var angular = require('angular'),
 //     uiRouter = require('angular-ui-router'),
-//     uiBootstrap = require('angualr-ui-bootstrap');
+//     uiBootstrap = require('angular-ui-bootstrap');
 
-angular.module('app', ['ui.router', 'ui.bootstrap'])
+angular.module('app', ['ui.router'])
 .config(function($stateProvider, $urlRouterProvider, $locationProvider) {
 
     $stateProvider
