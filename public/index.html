@@ -1,38 +1,264 @@
 <!DOCTYPE html>
 <html ng-app="app">
-  <head>
+
+<head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara" rel="stylesheet">
     <link rel="stylesheet" href="./dist/styles.css" />
-  </head>
-  <body ng-controller="mainCtrl">
+</head>
 
-    <div class="main_nav">
+<body ng-controller="mainCtrl">
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-md-offset-4 col-sm-offset-4">
-            <button class="btn btn-primary btn-block btn-custom" ui-sref="home">Go to home
-            </button>
-          </div>
-          <div class="col-md-4 col-md-offset-4 col-sm-offset-4">
-            <button class="btn btn-primary btn-block btn-custom" ui-sref="products">Go to products
-            </button>
-          </div>
-          <div class="col-md-4 col-md-offset-4 col-sm-offset-4">
-            <button class="btn btn-primary btn-block btn-custom" ui-sref="about">Go to about
-            </button>
-          </div>
-        </div>
-      </div>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
 
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Worm Poop</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-main">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Products</a></li>
+            <li><a href="#google_map">Contact</a></li>
+        </ul>
     </div>
 
+  </div>
+  </nav>
+
+  <div class="header_text">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6 col-md-offset-3">
+                <a href="#home"></a>
+                  <div class="videoWrapper">
+                    <iframe  width="560" height="315" src="https://www.youtube.com/embed/Berf8Sy0SCI" frameborder="0" allowfullscreen></iframe>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="below_video_text">
+    <div class="row">
+      <div id="home" class="col-md-4 col-md-offset-4">
+
+      <p>
+        Vermiculture is the process of using worms to decompose organic food waste, turning the waste into a nutrient-rich material capable of supplying necessary nutrients to help sustain plant growth.
+
+        Vermicomposting adds beneficial organisms to the soil. These microorganisms and soil fauna help break down organic materials and convert nutrients into a more available food form for plants.
+        Like composting, vermiculture composting is natures way of completing the recycling loop. Being born, living, dying, and being reborn again. Adding compost to soil aids in erosion control, promotes soil fertility, and stimulates healthy root development in plants.
+    </p>
+    </div>
+  </div>
+  </div>
 
 
+
+
+<!-- second section - About -->
+
+<div id="about" class="pad-section">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-6 offset-md-4">
+      <img src="images/soilbnr2.png" alt="soil" />
+    </div>
+    <div class="col-sm-6 text-center col-md-offset-2">
+      <h2>Turn your food waste into a rich organic natural soil by using worms to eat decaying material and turning the waste into a beautiful rich organic material called black gold wormpoop or castings. </h2>
+      <p class="lead">I am Marcia L. Iannone, an environmental consultant and a Vermiculture Specialist. I became interested in this process while employed as the Recycling Coordinator for an environmental program entitled, LandLab "A Center for Education and Research in the Sustainable Use of Resources," at the California State Polytechnic University, Pomona, California. I worked at the University from 1984 through January 1998.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- /second section -->
+<div class="header_text">
+  <div id="products" class="jumbotron">
+    <div class="row">
+      <div  class="col-md-4 col-md-offset-4">
+        <h1>Available Products for Sale</h1>
+      </div>
+      <div class="col-md-4 offset-md-8">
+        <img src="images/twoplot.png" alt="soil" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron">
+
+
+<table class="table table-striped">
+  <tr>
+    <th>
+      RedWorms
+    </th>
+    <th>
+        One Hundred Count
+    </th>
+    <th>
+      $10.00
+    </th>
+  </tr>
+  <tr>
+    <th>
+      RedWorms
+    </th>
+    <th>
+      Two Hundred Fifty Count
+    </th>
+    <th>
+      $18.00
+    </th>
+  </tr>
+  <tr>
+    <th>
+      RedWorms
+    </th>
+    <th>
+      One Half Pound
+    </th>
+    <th>
+      $25.00
+    </th>
+  </tr>
+  <tr>
+    <th>
+      RedWorms
+    </th>
+    <th>
+      One Pound
+    </th>
+    <th>
+      $40.00
+    </th>
+  </tr>
+  <tr>
+    <th>
+      RedWorms
+    </th>
+    <th>
+      Two Pounds
+    </th>
+    <th>
+      $80.00
+    </th>
+  </tr>
+  <tr>
+    <th>
+      RedWorms
+    </th>
+    <th>
+      Three Pounds
+    </th>
+
+    <th>$120.00
+    </th>
+  </tr>
+  <tr>
+    <th>
+      RedWorms
+    </th>
+    <th>
+      Five Pounds
+    </th>
+    <th>
+      $160.00
+    </th>
+  </tr>
+  <tr>
+    <th>
+      RedWorms
+    </th>
+    <th>
+      Ten Pounds
+    </th>
+    <th>
+      $300.00
+    </th>
+  </tr>
+
+</table>
+
+
+
+
+
+<!--
+  <div ng-repeat="product in products">
+    <p>
+      {{product.name}} {{product.description}} {{product.cost}}
+    </p>
+  </div>
+
+</div> -->
+
+
+
+
+
+<div id="services">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+
+      <div id ="google_map">
+        <iframe width="600" height="450" frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?q=8469%2018th%20Street%20Alta%20Loma%20CA%2C%2091701&key=AIzaSyAeGtPYAsTiWQTYws9zQLQY6GxFIgSRxow" allowfullscreen></iframe>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- google map -->
+
+
+<footer>
+<hr />
+<div class="container">
+</div>
+</footer>
+
+<div class="bottom_contact">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4">
+      <div>
+        <small>
+          Marcia's Vermiculture
+        </small>
+      </div>
+    <div>
+  <small>
+  8469 18th Street
+  </small>
+  </div>
+  <div>
+  <small>
+  Alta Loma CA, 91701
+  </small>
+  </div>
+
+  </div>
+  </div>
+</div>
+<!-- ///////////////////////////////////////////////////// -->
     <!-- {{test}} -->
-    <ui-view></ui-view>
+    <!-- <ui-view></ui-view> -->
 
     <!-- <script src="/node_modules/angular/angular.js"></script>
     <script src="app.js"></script>
@@ -41,5 +267,6 @@
     <script src="./dist/js/bundle.js"></script>
     <!-- <script src="mainCtrl.js"></script>
     <script src="mainService.js"></script> -->
-  </body>
+</body>
+
 </html>

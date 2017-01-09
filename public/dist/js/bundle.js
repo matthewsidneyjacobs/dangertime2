@@ -1,25 +1,30 @@
 'use strict';
 
 // var angular = require('angular'),
-//     uiRouter = require('angular-ui-router'),
-//     uiBootstrap = require('angular-ui-bootstrap');
+//     uiRouter = require('angular-ui-router');
 
-angular.module('app', ['ui.router']).config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
 
-  $stateProvider.state('home', {
-    templateUrl: './views/home.html',
-    url: '/'
-  }).state('products', {
-    templateUrl: './views/products.html',
-    url: '/products'
-  }).state('about', {
-    templateUrl: './views/about.html',
-    url: '/about'
-  });
+angular.module('app', []);
+// .config(function( $urlRouterProvider, $locationProvider) {
 
-  $urlRouterProvider.otherwise('/');
-  $locationProvider.hashPrefix('');
-});
+// $stateProvider
+// .state('home', {
+//   templateUrl: './views/home.html',
+//   url: '/'
+// })
+// .state('products', {
+//   templateUrl: './views/products.html',
+//   url: '/products'
+// })
+// .state('about', {
+//   templateUrl: './views/about.html',
+//   url: '/about'
+// })
+//
+//   $urlRouterProvider.otherwise('/');
+// $locationProvider.hashPrefix('');
+// 
+// })
 'use strict';
 
 angular.module('app').controller('mainCtrl', function ($scope, mainService) {

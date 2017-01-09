@@ -1,5 +1,8 @@
 .btn-custom {
-  background: #507642; }
+  background: #c9c3c9; }
+  .btn-custom .outline {
+    border: 2px solid #507642;
+    color: #507642; }
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
   outline: 0 none; }
@@ -12,6 +15,21 @@
   box-shadow: none; }
 
 body, html {
+  height: 100%;
+  font-family: 'Hind Vadodara', sans-serif; }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  
+  padding-top: 25px;
+  height: 0; }
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%; }
 
 .test {
@@ -34,8 +52,30 @@ body, html {
   flex-direction: column; }
 
 .header_text {
+  display: flex;
+  align-items: center;
   background-color: #CCCFBC;
   text-align: center;
   color: #507642; }
+
+.top_sections .uptop {
+  font-family: sans-serif;
+  text-align: center; }
+
+.top_sections .splash_text {
+  text-align: center; }
+
+.below_video_text {
+  background-color: #F3F4EC;
+  width: 100%;
+  text-align: center; }
+
+.bottom_contact {
+  text-align: center;
+  width: 100%;
+  background-color: white; }
+
+#services {
+  background-color: #CCCFBC; }
 
 

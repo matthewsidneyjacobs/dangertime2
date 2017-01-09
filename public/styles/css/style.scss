@@ -2,18 +2,25 @@ $dark-green:#507642;
 $light-green:#86942A;
 $tan:#A37B45;
 $off-grey:#CCCFBC;
-$almost-white:#F3F4EC;
-
-
+$kinda-white:#F3F4EC;
 $background-color: rgb(39, 177, 54);
+$almost-grey: rgb(201, 195, 201);
+/////////////////////////////////////////
 
+
+//button work
 .btn-custom {
-  background: $dark-green
+  background: $almost-grey;
+  .outline {
+    border:2px solid $dark-green;
+    color: $dark-green
+  }
 }
 
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
 }
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     background: $light-green;
 }
@@ -23,11 +30,28 @@ $background-color: rgb(39, 177, 54);
     box-shadow: none;
 }
 
+
+
+//////////////////////////////////////////////////
 body, html {
   // background-color: $background-color;
   height: 100%;
+  font-family: 'Hind Vadodara', sans-serif;
 }
 
+.videoWrapper {
+  position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
 .test {
   height: 50%;
@@ -43,7 +67,7 @@ body, html {
 }
 
 .main_nav {
-  background-color: $almost-white;
+  background-color: $kinda-white;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +75,35 @@ body, html {
 }
 
 .header_text {
+  display:flex;
+  align-items: center;
   background-color: $off-grey;
   text-align: center;
   color: $dark-green;
+}
+
+.top_sections {
+  .uptop {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .splash_text {
+    text-align: center;
+  }
+}
+
+.below_video_text {
+  background-color: $kinda-white;
+  width: 100%;
+  text-align: center;
+}
+.bottom_contact {
+  text-align: center;
+  width:100%;
+  background-color: white;
+}
+
+#services {
+  background-color: $off-grey
 }
