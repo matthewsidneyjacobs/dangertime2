@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAKA,IAAI,CAAC;EACH,gBAAgB,EAHC,OAAgB,GAIlC","file":"../styles.css","sourcesContent":["\n\n\n$background-color: rgb(39, 177, 54);\n\nbody {\n  background-color: $background-color;\n}\n"]}

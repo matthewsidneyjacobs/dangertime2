@@ -1,0 +1,27 @@
+{
+  "name": "dangertime2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify app.js -o libs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-ui-router": "^0.3.2",
+    "babel-preset-es2015": "^6.18.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-cachebust": "0.0.6",
+    "gulp-concat": "^2.6.1",
+    "gulp-print": "^2.0.1",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^2.2.2",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}
